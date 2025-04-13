@@ -86,8 +86,6 @@ meu-checklist-tarefas-mvp/
 │   ├── questionario.py
 ├── config.env
 ├── dependencias.txt
-├── estrutura.txt
-├── gerar_estrutura_projeto.py
 ├── main.py
 ├── __init__.py
 ```
@@ -147,7 +145,27 @@ meu-checklist-tarefas-mvp/
     
     
 2 - Estrutura de Pastas
-![image](https://github.com/user-attachments/assets/93dbc7af-0f86-407f-8237-b6b1ab430612)
+```text
+./front
+├── cadastro.css
+├── cadastro.html
+├── index.css
+├── index.html
+├── painelUsuario.css
+├── painelUsuario.html
+├── questionario.css
+├── questionario.html
+├── readme.md
+├── js/
+│   ├── index.js
+│   ├── painelUsuario.js
+│   ├── questionario.js
+│   ├── script-cadastro.js
+│   ├── scripts.js
+
+
+```
+
 
 
 OBRIGADA POR LER ATÉ AQUI!!!! :)
