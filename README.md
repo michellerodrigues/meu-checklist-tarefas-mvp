@@ -4,7 +4,7 @@
 
 Para entender o Contexto: leia ['documentacao-entrega.md'](https://github.com/michellerodrigues/meu-checklist-tarefas-mvp/blob/main/Documentacao-Entrega.md)
 
-Veja a apresentação do site em: https://youtu.be/yHM1qtAP8VM
+Veja a apresentação do site em: [https://youtu.be/yHM1qtAP8VM](https://youtu.be/J5EoOjXckBQ)
 
 ## Configuração do Ambiente
 
