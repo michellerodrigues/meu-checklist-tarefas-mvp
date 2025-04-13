@@ -1,0 +1,11 @@
+@import 'index.css';
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Estilo para mensagens de erro nos inputs */
+input:invalid {
+    border-color: #dc3545 !important;
+}

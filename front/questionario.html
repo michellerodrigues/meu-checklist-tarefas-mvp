@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="questionario.css">
+    
+    <script type="module" src="./js/questionario.js"></script>
+
+    <title>Questionário OnBoarding</title>
+    
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress" style="width: 0%"></div>
+    </div>
+    
+    <div id="perguntas-container"></div>
+
+    <div class="navigation-buttons">
+        <button id="prev-btn" disabled>Anterior</button>
+        <span id="pergunta-contador"></span>
+        <button id="next-btn" >Próxima</button>
+    </div>
+
+    <div class="error-message" id="error-message">Por favor, selecione pelo menos uma opção antes de continuar.</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.pergunta-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: none;
+}
+
+.pergunta-container.active {
+    display: block;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.options-container {
+    margin: 15px 0;
+}
+
+.option-label {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.option-label:hover {
+    background-color: #f8f8f8;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #28a745;
+    transition: width 0.3s ease;
+    border-radius: 3px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Mantenha o CSS anterior e adicione: */
+.pergunta-container {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.pergunta-container.active {
+    display: block;
+    opacity: 1;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

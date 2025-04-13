@@ -1,0 +1,74 @@
+/* Estilo das janelas flutuantes */
+.floating-table {
+    position: fixed;
+    width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+/* Cabeçalho da janela */
+.table-header {
+    padding: 12px;
+    background: #4fa3cd;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    cursor: move;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botão de minimizar */
+.toggle-visibility {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Corpo da tabela */
+.table-content {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Botão de status */
+.toggle-btn {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle-btn.on {
+    background-color: #2a6177;
+    color: white;
+}
+
+.toggle-btn.off {
+    background-color: #965478;
+    color: white;
+}
+
+.logout-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
