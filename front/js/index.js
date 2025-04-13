@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 if (!response.ok) {
                     const error = await response.json();
+                    alert("Erro ao fazer login.");
                     throw new Error(error.detail || 'Erro no login');
                 }
                 
