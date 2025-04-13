@@ -1,5 +1,9 @@
 # meu-checklist-tarefas-mvp
-1ª Entrega trabalho PUC-Rio, CCE Extensão - Engenharia de Software
+
+1ª Entrega trabalho PUC-Rio, CCE Extensão - Engenharia de Software (Michelle Rodrigues - Matricula 10914039709)
+
+Para entender o Contexto: leia 'documentacao-entrega.md'
+
 
 ## Configuração do Ambiente
 
