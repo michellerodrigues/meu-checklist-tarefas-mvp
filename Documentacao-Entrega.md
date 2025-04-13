@@ -1,9 +1,13 @@
 # Projeto MVP - Meu Checklist de Tarefas
 
+
 A ideia surgiu das tarefas que tenho coladas na minha geladeira. A ideia é trazer esse board para o celular/web de forma intuitiva e agradável.
 
 ![image](https://github.com/user-attachments/assets/e1a1dc10-b70f-452d-b5fc-20f013514c9a)
 
+## Apresentação Aplicativo
+
+[MeuCheckLisTarefas-Apresentação.pptx](https://github.com/user-attachments/files/19722216/MeuCheckLisTarefas-Apresentacao.pptx)
 
 
 ## Visão Geral
