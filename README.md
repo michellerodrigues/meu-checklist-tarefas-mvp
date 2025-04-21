@@ -2,7 +2,9 @@
 
 1ª Entrega trabalho PUC-Rio, CCE Extensão - Engenharia de Software (Michelle Rodrigues - Matricula 10914039709)
 
-Para entender o Contexto: leia ['documentacao-entrega.md'](https://github.com/michellerodrigues/meu-checklist-tarefas-mvp/blob/main/Documentacao-Entrega.md)
+Para entender o Contexto:
+https://github.com/michellerodrigues/meu-checklist-tarefas-mvp/blob/main/leia-me/Documentacao-Entrega.md
+
 
 Veja a apresentação do site em: https://www.youtube.com/watch?v=J5EoOjXckBQ
 
