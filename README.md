@@ -28,7 +28,7 @@ Veja a apresentação do site em: https://www.youtube.com/watch?v=J5EoOjXckBQ
         .\venv\Scripts\activate
         ```
         
-3. **Instale as dependências**:
+3. **Instale as dependências da api : /api**:
     ```bash
     pip install -r dependencias.txt
     ```
